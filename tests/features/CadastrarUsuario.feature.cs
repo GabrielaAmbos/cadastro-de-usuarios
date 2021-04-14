@@ -10,7 +10,7 @@
 // ------------------------------------------------------------------------------
 #region Designer generated code
 #pragma warning disable
-namespace Cadastro_de_Usuarios.CadastroDeUsuarios.Tests.Features
+namespace Cadastro_de_Usuarios.Tests.Features
 {
     using TechTalk.SpecFlow;
     using System;
@@ -35,7 +35,7 @@ namespace Cadastro_de_Usuarios.CadastroDeUsuarios.Tests.Features
         public virtual void FeatureSetup()
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("pt"), "Cadastro de Usuarios/tests/features", "Cadastrar Usuario", "\tEU COMO usuário do sistema.\r\n\tDESEJO realizar o cadastro de novos usuários.\r\n\tPA" +
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("pt"), "tests/features", "Cadastrar Usuario", "\tEU COMO usuário do sistema.\r\n\tDESEJO realizar o cadastro de novos usuários.\r\n\tPA" +
                     "RA QUE seja possível armazenar e gerenciar seus dados.", ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
@@ -107,20 +107,20 @@ this.ScenarioInitialize(scenarioInfo);
 #line 9
  testRunner.When("eu solicitar cadastrar um usuário", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Quando ");
 #line hidden
-                TechTalk.SpecFlow.Table table1 = new TechTalk.SpecFlow.Table(new string[] {
+                TechTalk.SpecFlow.Table table6 = new TechTalk.SpecFlow.Table(new string[] {
                             "Campo",
                             "Mensagem"});
-                table1.AddRow(new string[] {
+                table6.AddRow(new string[] {
                             "Nome",
                             "O campo Nome é obrigatório."});
-                table1.AddRow(new string[] {
+                table6.AddRow(new string[] {
                             "E-mail",
                             "O campo E-mail é obrigatório."});
-                table1.AddRow(new string[] {
+                table6.AddRow(new string[] {
                             "Senha",
                             "O campo Senha é obrigatório."});
 #line 10
- testRunner.Then("eu devo visualizar as mensagens de erro", ((string)(null)), table1, "Então ");
+ testRunner.Then("eu devo visualizar as mensagens de erro", ((string)(null)), table6, "Então ");
 #line hidden
             }
             this.ScenarioCleanup();
@@ -225,16 +225,16 @@ this.ScenarioInitialize(scenarioInfo);
 #line 35
  testRunner.And("eu solicitar cadastrar um usuário", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "E ");
 #line hidden
-                TechTalk.SpecFlow.Table table2 = new TechTalk.SpecFlow.Table(new string[] {
+                TechTalk.SpecFlow.Table table7 = new TechTalk.SpecFlow.Table(new string[] {
                             "Id",
                             "Nome",
                             "E-mail"});
-                table2.AddRow(new string[] {
+                table7.AddRow(new string[] {
                             "1",
                             "Gabriela Ambos",
                             "gabrielaambos@teste.com"});
 #line 36
- testRunner.Then("eu devo visualizar os usuários cadastrados", ((string)(null)), table2, "Então ");
+ testRunner.Then("eu devo visualizar os usuários cadastrados", ((string)(null)), table7, "Então ");
 #line hidden
             }
             this.ScenarioCleanup();
@@ -282,16 +282,16 @@ this.ScenarioInitialize(scenarioInfo);
 #line 45
  testRunner.And("eu solicitar cadastrar um usuário", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "E ");
 #line hidden
-                TechTalk.SpecFlow.Table table3 = new TechTalk.SpecFlow.Table(new string[] {
+                TechTalk.SpecFlow.Table table8 = new TechTalk.SpecFlow.Table(new string[] {
                             "Id",
                             "Nome",
                             "E-mail"});
-                table3.AddRow(new string[] {
+                table8.AddRow(new string[] {
                             "1",
                             "Gabriela Ambos",
                             "gabrielaambos@teste.com"});
 #line 46
- testRunner.Then("eu devo visualizar os usuários cadastrados", ((string)(null)), table3, "Então ");
+ testRunner.Then("eu devo visualizar os usuários cadastrados", ((string)(null)), table8, "Então ");
 #line hidden
 #line 49
  testRunner.When("eu preencher o campo nome com \"Manoel Afonso\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Quando ");
@@ -305,34 +305,34 @@ this.ScenarioInitialize(scenarioInfo);
 #line 52
  testRunner.And("eu solicitar cadastrar um usuário", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "E ");
 #line hidden
-                TechTalk.SpecFlow.Table table4 = new TechTalk.SpecFlow.Table(new string[] {
+                TechTalk.SpecFlow.Table table9 = new TechTalk.SpecFlow.Table(new string[] {
                             "Id",
                             "Nome",
                             "E-mail"});
-                table4.AddRow(new string[] {
+                table9.AddRow(new string[] {
                             "1",
                             "Gabriela Ambos",
                             "gabrielaambos@teste.com"});
-                table4.AddRow(new string[] {
+                table9.AddRow(new string[] {
                             "2",
                             "Manoel Afonso",
                             "manoelafonso@teste.com"});
 #line 53
- testRunner.Then("eu devo visualizar os usuários cadastrados", ((string)(null)), table4, "Então ");
+ testRunner.Then("eu devo visualizar os usuários cadastrados", ((string)(null)), table9, "Então ");
 #line hidden
 #line 57
  testRunner.When("eu solicito excluir o usuário com o id \"1\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Quando ");
 #line hidden
-                TechTalk.SpecFlow.Table table5 = new TechTalk.SpecFlow.Table(new string[] {
+                TechTalk.SpecFlow.Table table10 = new TechTalk.SpecFlow.Table(new string[] {
                             "Id",
                             "Nome",
                             "E-mail"});
-                table5.AddRow(new string[] {
+                table10.AddRow(new string[] {
                             "2",
                             "Manoel Afonso",
                             "manoelafonso@teste.com"});
 #line 58
- testRunner.Then("eu devo visualizar os usuários cadastrados", ((string)(null)), table5, "Então ");
+ testRunner.Then("eu devo visualizar os usuários cadastrados", ((string)(null)), table10, "Então ");
 #line hidden
             }
             this.ScenarioCleanup();
