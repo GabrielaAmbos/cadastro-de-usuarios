@@ -10,7 +10,7 @@
 // ------------------------------------------------------------------------------
 #region Designer generated code
 #pragma warning disable
-namespace Cadastro_de_Usuarios.Features
+namespace Cadastro_de_Usuarios.Tests.Features
 {
     using TechTalk.SpecFlow;
     using System;
@@ -35,7 +35,7 @@ namespace Cadastro_de_Usuarios.Features
         public virtual void FeatureSetup()
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("pt"), "features", "Cadastrar Usuario", "\tEU COMO usuário do sistema.\r\n\tDESEJO realizar o cadastro de novos usuários.\r\n\tPA" +
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("pt"), "tests/features", "Cadastrar Usuario", "\tEU COMO usuário do sistema.\r\n\tDESEJO realizar o cadastro de novos usuários.\r\n\tPA" +
                     "RA QUE seja possível armazenar e gerenciar seus dados.", ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
