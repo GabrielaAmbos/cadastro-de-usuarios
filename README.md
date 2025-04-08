@@ -1,13 +1,13 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=DF62F7&width=435&lines=Projeto+de+Automa%C3%A7%C3%A3o+Cadastro+de+Usu%C3%A1rios)](https://git.io/typing-svg)
 
-Projeto de automação no site http://prova-jgr.com.br/teste/qa/ utilizando a linguagem C# e o framework de automação Selenium WebDriver, explorando a funcionalidade 'Comprar um produto'.
+Projeto de automação no site http://prova-jgr.com.br/teste/qa/ utilizando a linguagem C# e o framework de automação Selenium WebDriver, explorando a funcionalidade 'Cadastrar Usuário'.
 
 ## Feature testada:
 
-Funcionalidade: Cadastrar Usuario
-	EU COMO usuário do sistema.
-	DESEJO realizar o cadastro de novos usuários.
-	PARA QUE seja possível armazenar e gerenciar seus dados.
+**Funcionalidade:** Cadastrar Usuario <br>
+	EU COMO usuário do sistema. <br>
+	DESEJO realizar o cadastro de novos usuários. <br>
+	PARA QUE seja possível armazenar e gerenciar seus dados. <br>
 
     Cenário: CT001- Visualizar mensagens de erro
 	Dado que eu acesse a página de cadastro
